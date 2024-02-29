@@ -1,0 +1,129 @@
+body{
+    background-color: #f7f6e8;
+}
+header{
+    display:flex;
+    position: relative;
+    border: 1px  solid black;
+    border-radius: 15px;
+    background-color: #8CB9BD;
+}
+
+#Details{
+    left:0px;
+    top: 0px;
+    padding-left: 15px; }
+
+#Name{
+font-size: 35px;
+margin-bottom: 0px;
+margin-top: 7px;
+}
+#Mail{
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+ul.WebNav{
+    color: #265073;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right:5px;
+    top:10px;
+}
+.WebNav a{
+    text-decoration: none; 
+    color: inherit; 
+    font-size: 18px;
+}
+li{
+    padding: 10px;
+} 
+
+.dropdown{
+position: absolute;
+    right:25px;
+    top:25px; 
+
+}
+
+.dropdown button{
+    display: none;
+    color: black(252, 0, 0);
+    padding: 10px 22px; 
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #9AD0C2;
+}
+.dropdown a{
+display: block;
+color: black;
+text-decoration: none;
+padding: 10px 15px;
+border: 1px solid black;
+font-size: 14px;
+background-color: #F1FADA;
+}
+
+.dropdown .contentNav{
+    display: none;
+    position: absolute;
+    background-color: hsl(0, 0, 95);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(94, 94, 94);
+    
+}
+.dropdown:hover .contentNav{
+    display: block;
+}
+
+.content{
+    margin-top: 5px;
+    text-align: center;
+    border: 1px  solid black;
+    border-radius: 15px;
+    background-color: #a9cccf;
+}
+.content p{
+    font-size: 18px;
+}
+
+.Education{
+    margin-top: 55px;
+    text-align: center;
+}
+
+.Education ul{
+
+    list-style: none;
+}
+.Education ul li{
+    
+    list-style: none;
+}
+
+.Skills ul li{
+padding: 5px;
+}
+.Resume ul li {
+    padding: 5px;
+
+}
+#KingOfTheBar{
+    width: 150px;
+}
+
+#LinkSocial{
+    padding-top: 10px;
+    margin: 4px;
+  font-size: 30px;
+}
+ @media only screen and (max-width: 700px) {
+    ul.WebNav {
+        display: none;
+    }
+    .dropdown button{
+        display: flex;
+    }
+  } 
